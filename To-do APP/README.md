@@ -2,6 +2,10 @@
 
 This is a simple to-do list application built with HTML, CSS, and JavaScript. It allows users to add tasks, mark them as completed, and delete them. The application also persists data using local storage.
 
+## Live Demo
+
+* [Live Demo Link](todobyak.ccbp.tech)
+
 ## Features
 
 * **Add Tasks:** Users can add new tasks by typing them into the input field and pressing the "Add" button or the Enter key.
@@ -26,6 +30,7 @@ This is a simple to-do list application built with HTML, CSS, and JavaScript. It
     ```
 
 2.  **Open `index.html` in your browser.**
+
 
 ## Usage
 
