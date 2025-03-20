@@ -39,7 +39,6 @@ To use this application, simply open the `index.html` file in your web browser.
 - `index.html`: The HTML structure of the to-do list application.
 - `script.js`: The JavaScript file containing the application logic.
 - `style.css`: The CSS file containing the application styling.
-- `fontawesome`: The folder containing fontawesome icons.
 
 ## JavaScript Logic
 
