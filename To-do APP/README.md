@@ -4,7 +4,7 @@ This is a simple to-do list application built with HTML, CSS, and JavaScript. It
 
 
 * ## Live Demo
-* [Link To live Demo](https://todobyak.ccbp.tech/)
+* [Live Demo link](https://todobyak.ccbp.tech/)
 
 ## Features
 
