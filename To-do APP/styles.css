@@ -1,0 +1,118 @@
+*{
+    font-family: system-ui, Roboto;
+    color: white;
+    font-weight: normal;
+    margin: 0;
+}
+
+.main-container{
+    background-color: rgb(43, 42, 42);
+    height: 100vh;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-items: center;
+    text-align: center;
+    padding:20px 50px;
+    text-align: center;
+    align-items: center;
+}
+
+.special-text{
+    color: wheat;
+    font-weight: bolder;
+    font-size: 60px;
+}
+
+.user-input{
+    color: #38290e;
+    background-color: wheat;
+    font-size: 35px;
+    border-radius: 25px;
+    padding:10px 20px;
+    margin:20px 0 0 0;
+    width:60%;
+    border-style: none;
+}
+
+.btn{
+    color: whitesmoke;
+    background-color: #644e26;
+    font-size: larger;
+    padding:5px 15px;
+    border-style: none;
+    border-radius: 20px;
+    margin-top:1em;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+
+ul{
+    list-style-type: none;
+    width:70%;
+    padding: 20px 10px;
+}
+
+.item-cnt{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #b19664;
+    padding:15px 20px 15px 5px;
+    border-top-left-radius:10px;
+    border-bottom-left-radius: 10px;
+    border-left-color: #644e26;
+    border-left-width: 10px;
+    border-left-style: solid;
+    margin-top: 10px;
+}
+
+
+.text-cnt{
+    display: flex;
+    flex-direction: row;
+}
+
+.check-box{
+    appearance: none;
+    width:25px;
+    height: 25px;
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    text-shadow: #644e26 2px 2px;
+    padding:1px 5px;
+    margin-right:10px;
+}
+
+
+.check-box:checked{
+    background-color: #057c05;
+}
+
+
+.item-text{
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    user-select: none;
+}
+
+.completed{
+    text-decoration: line-through;
+    color: #057c05;
+    text-shadow: grey 2px 2px;
+}
+
+
+i{
+    transition:0.5s ease;
+    cursor: pointer;
+    font-size: 20px;
+}
+i:hover{
+    color: red;
+    transform:  scale(1.1);
+    text-shadow: #644e26 2px 2px 5px;
+}
