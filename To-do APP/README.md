@@ -5,7 +5,8 @@ This is a simple to-do list application built with HTML, CSS, and JavaScript. It
 
 * ## Live Demo
 
-* [Live Demo Link](https://todobyak.ccbp.tech/){target="_blank"}
+* <a href="https://todobyak.ccbp.tech/" target="_blank">Live Demo Link</a>
+
 
 ## Features
 
