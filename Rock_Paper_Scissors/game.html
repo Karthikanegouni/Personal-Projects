@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/18d1c30374.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css"/>
+    <title>Rock-paper-scissors</title>
+  </head>
+  <body>
+    <div class="main-container">
+        <div class="user-selected-container">
+                <h1 id="winner-text"></h1>
+                <div class="user-selected"> 
+                  <div>
+                    <i id="cpu_img" class="cpu-hand fa-solid fa-hand-back-fist"></i>
+                    <p>CPU</p>
+                  </div>
+                  <div>
+                    <i id="user_img" class="user-hand fa-solid fa-hand-back-fist"></i>
+                    <p>User</p>
+                  </div>
+                </div>
+        </div>
+
+      <div class="game-container">
+        <div class="options-container">
+          <div class="option">
+            <i id="rock" class="option fa-solid fa-hand-back-fist"></i>
+            <p>Rock</p>
+        </div>
+        <div class="option">
+          <i id="paper" class="option fa-solid fa-hand"></i>
+          <p>Paper</p>
+        </div>
+        <div class="option">
+          <i id="scissors" class="option fa-solid fa-hand-scissors"></i>
+          <p>Scissors</p>
+        </div>
+        </div>
+      </div>
+      <button id="playBtn">Play Again</button>
+    </div>
+
+    <script src="logic.js"></script>
+  </body>
+</html>
